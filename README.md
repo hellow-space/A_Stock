@@ -88,6 +88,12 @@ Git 不保存空目录，因此 `docs/`、`data/` 和 `archive/` 的子目录按
 
 ## 变更记录
 
+### 2026-06-20：简化 Agent 协作流程
+
+- 重写 `agents.md`，明确两个 Agent 共用 `main` 分支时的七步协作流程。
+- 增加工作前状态检查、修改前同步、提交前差异检查和推送前二次同步。
+- 统一使用 `git pull --rebase origin main` 整理并发提交，明确禁止 `git push --force`。
+
 ### 2026-06-20：Agent 协作工作流程
 
 - 新增 `agents.md`，明确 Trae 和 CodeSize 的工作流程、分工、文件规范和检查清单。
