@@ -88,6 +88,11 @@ Git 不保存空目录，因此 `docs/`、`data/` 和 `archive/` 的子目录按
 
 ## 变更记录
 
+### 2026-06-20：CodeSize 协作指南
+
+- 新增 `CODESIZE_GUIDE.md`，为 CodeSize 提供协作规范、项目结构说明、研究规范和分工指引。
+- 明确 Trae 与 CodeSize 分工：Trae 负责每日复盘和数据获取，CodeSize 负责深度研究和策略分析。
+
 ### 2026-06-20：仓库可用性整理与自动存档
 
 - 重写 `scripts/daily_report.py`：自动创建输出目录，校验接口响应，修正成交额字段，接口失败时不再生成误导性的空白报告。
