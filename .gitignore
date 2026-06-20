@@ -1,0 +1,36 @@
+# 忽略文件
+
+# 数据文件（原始数据不过度提交）
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.json
+data/processed/temp/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+logs/
+
+# 临时文件
+tmp/
+temp/
+*.tmp
